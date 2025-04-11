@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="D:\Projects\booksky\dome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title"> 
+        <h1>Booksky</h1>
+    </div>
+
+    <div class="containerr">
+        <div class="info">
+            <h2>Rich Dad</h2>
+            <h4>Robert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores doloribus sunt nihil.</p>
+            <button onclick="deleteBook(this)">Delete</button>
+        </div>
+    </div>
+
+    <div class="pop">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title" required>
+            <input type="text" placeholder="Book Author" id="book-auth" required>
+            <textarea placeholder="Short Description" id="book-desc" required></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-pop">Cancel</button>
+        </form>
+    </div>
+
+    <div class="overlay"></div>
+    <button class="add" id="addpop">+</button>
+
+    <script src="D:\Projects\booksky\dome.js"></script>
+</body>
+</html>
